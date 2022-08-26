@@ -557,7 +557,7 @@ body {
 .social-link-comand:hover {
   fill: #ffffff;
 }
-.icon-comand:hover {
+.social-link-comand:hover {
   color: currentColor;
 }
 .social-link:hover,
