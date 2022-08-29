@@ -297,16 +297,7 @@ body {
   justify-content: center;
   margin-bottom: 30px;
 }
-.details-icon {
-  /* margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70px;
-  width: 70px; */
-}
+
 .feature-ul {
   display: flex;
   gap: 30px;
@@ -352,7 +343,6 @@ body {
 .icon-klient-list:focus {
   color: var(--color-web-blue);
 
-  fill: var(--color-web-blue);
   border-color: var(--color-web-blue);
 }
 .icon-klient-list {
@@ -376,6 +366,7 @@ body {
 }
 
 .about-us {
+  padding-bottom: 0px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -454,8 +445,7 @@ body {
 .social-networks-list {
   justify-content: center;
   display: flex;
-  padding-left: 32px;
-  padding-right: 32px;
+
   gap: 10px;
 }
 .social-networks {
@@ -541,6 +531,7 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .projects-li {
+  display: block;
   box-sizing: border-box;
   background: #ffffff;
 }
@@ -593,7 +584,7 @@ body {
   justify-content: center;
 
   display: flex;
-  color: #757575;
+  color: #afb1b8;
   column-gap: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
@@ -627,12 +618,14 @@ body {
   display: flex;
 }
 .footer-text {
+  width: 700px;
   margin-bottom: 20px;
   margin-right: auto;
-  font-size: 16px;
-
+  font-size: 14px;
+  height: 1.17;
   color: #ffffff;
 }
 .regular-customers {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
