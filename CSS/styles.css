@@ -443,6 +443,7 @@ body {
 }
 
 .social-networks-list {
+  padding-bottom: 30px;
   justify-content: center;
   display: flex;
 
@@ -615,14 +616,17 @@ body {
 }
 
 .container-footer {
+  align-items: baseline;
   display: flex;
 }
 .footer-text {
-  width: 700px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: 700px;
   margin-bottom: 20px;
   margin-right: auto;
   font-size: 14px;
-  height: 1.17;
+  height: 1.14;
   color: #ffffff;
 }
 .regular-customers {
